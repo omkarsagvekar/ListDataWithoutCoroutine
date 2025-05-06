@@ -37,11 +37,11 @@ class ThirdActivity : AppCompatActivity(), CustomSpinnerAdapter.SendDataCallback
         }
         allListener()
         userHashMapData.put("Select Name", UserHashMapData("Select Name", 0, ""))
-        userHashMapData.put("Omkar", UserHashMapData("Omkar", 9870539300, "Mumbai"))
-        userHashMapData.put("Mahesh Sir", UserHashMapData("Mahesh Sir", 123456789, "Thane"))
-        userHashMapData.put("Kanchan", UserHashMapData("Kanchan", 98782386862, "Navi Mumbai"))
-        userHashMapData.put("Prajakta Ma'am", UserHashMapData("Prajakta Ma'am", 4444444444, "Goa"))
-        userHashMapData.put("Apeksha", UserHashMapData("Apeksha", 777777777777, "Chiplun"))
+        userHashMapData.put("Kiran", UserHashMapData("Kiran", 9870539300, "Mumbai"))
+        userHashMapData.put("Salman Sir", UserHashMapData("Salman Sir", 123456789, "Thane"))
+        userHashMapData.put("Siera", UserHashMapData("Siera", 98782386862, "Navi Mumbai"))
+        userHashMapData.put("Json Stathum", UserHashMapData("Json Stathum", 4444444444, "Goa"))
+        userHashMapData.put("Amilie", UserHashMapData("Amilie", 777777777777, "Chiplun"))
 
         val userKeys = userHashMapData.keys.toList()
         val users = userHashMapData.values.toList()
